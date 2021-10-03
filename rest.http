@@ -1,0 +1,34 @@
+### register route
+POST http://localhost:9000/register
+Content-Type: application/json
+
+{
+    "name":"ranjit",
+    "email":"sahooranjit519@gmail.com",
+    "password":"sahooranjit519@gmail.com"
+}
+### login step
+POST http://localhost:9000/login
+Content-Type: application/json
+
+{
+    "email":"sahooranjit519@gmail.com",
+    "password":"sahooranjit519@gmail.com"
+}
+### update route
+PUT http://localhost:9000/updateData
+Content-Type: application/json
+
+{
+    "id":"615871a92ceaf583c723c830",
+     "name":"ranjit",
+    "email":"sahooranjit519@gmail.com",
+    "password":"sahooranjit519@gmail.com"
+}
+### update route
+DELETE http://localhost:9000/deleteUser
+Content-Type: application/json
+
+{
+    "id":"615871a92ceaf583c723c830"
+}
